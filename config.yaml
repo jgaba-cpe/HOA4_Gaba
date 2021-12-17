@@ -1,0 +1,5 @@
+---
+ - name: Install ELK stack
+   hosts: clients
+   roles: 
+     - ELK
